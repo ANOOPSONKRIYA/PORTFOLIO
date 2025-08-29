@@ -1,8 +1,20 @@
 import React, { useState, useEffect, useCallback, memo } from "react"
-import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucide-react"
+import { Github, Linkedin, Mail, ExternalLink, Sparkles } from "lucide-react"
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+
+// ✅ Added CodePen SVG icon (since lucide-react doesn’t have one)
+const CodepenIcon = (props) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+  >
+    <path d="M21.438 8.162l-9.75-6.5a.75.75 0 0 0-.834 0l-9.75 6.5A.75.75 0 0 0 1 8.75v6.5c0 .25.125.5.334.638l9.75 6.5a.75.75 0 0 0 .832 0l9.75-6.5A.75.75 0 0 0 23 15.25v-6.5a.75.75 0 0 0-.332-.588zM12 3.726L19.875 9 15 12l4.875 3L12 20.274 4.125 15 9 12 4.125 9 12 3.726z" />
+  </svg>
+);
 
 // Memoized Components
 const StatusBadge = memo(() => (
@@ -25,7 +37,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          Software
         </span>
       </span>
       <br />
@@ -77,12 +89,12 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
+const WORDS = ["Computer Science Student", "Full-Stack Developer"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr._/?hl=id" }
+  { icon: Github, link: "https://github.com/ANOOPSONKRIYA" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/anoopsonkriya/" },
+  { icon: CodepenIcon, link: "https://codepen.io/AnoopSonkriya" } // ✅ Replaced Instagram with CodePen
 ];
 
 const Home = () => {
@@ -93,13 +105,11 @@ const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false)
   const [isHovering, setIsHovering] = useState(false)
 
-  // Optimize AOS initialization
   useEffect(() => {
     const initAOS = () => {
       AOS.init({
         once: true,
         offset: 10,
-       
       });
     };
 
@@ -113,7 +123,6 @@ const Home = () => {
     return () => setIsLoaded(false);
   }, []);
 
-  // Optimize typing effect
   const handleTyping = useCallback(() => {
     if (isTyping) {
       if (charIndex < WORDS[wordIndex].length) {
@@ -183,7 +192,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                  Creating Innovative, Functional, and User-Friendly Websites for Digital Solutions.
                 </p>
 
                 {/* Tech Stack */}
