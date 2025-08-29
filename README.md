@@ -6,7 +6,7 @@ Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like 
 
 ## 🚀 Live Demo
 
-**Website Link:** [https://www.eki.my.id/](https://www.eki.my.id/)
+**Website Link:** [anoopsonkriya.com](https://anoopsonkriya.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -239,8 +239,8 @@ If you have any questions or need help with the setup, feel free to reach out\!
 
 **Eki Zulfar Rachman**
 
-  - Website: [https://www.eki.my.id/](https://www.eki.my.id/)
-  - GitHub: [EkiZR](https://github.com/EkiZR)
+  - Website: [https://anoopsonkriya.vercel.app/](https://anoopsonkriya.vercel.app/)
+  - GitHub: [ANOOP](https://github.com/ANOOPSONKRIYA/)
 
 -----
 
