@@ -35,8 +35,8 @@ Follow these steps to run the project locally:
 ### 1\. Clone the Repository
 
 ```bash
-git clone (https://github.com/ANOOPSONKRIYA/PORTFOLIO.git)
-cd Portofolio_V5
+git clone [https://github.com/ANOOPSONKRIYA/PORTFOLIO.git]
+cd PORTFOLIO
 ```
 
 ### 2\. Install Dependencies
