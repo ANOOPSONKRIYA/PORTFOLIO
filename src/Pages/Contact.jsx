@@ -164,7 +164,7 @@ const ContactPage = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Nama Anda"
+                  placeholder="Name"
                   value={formData.name}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -181,7 +181,7 @@ const ContactPage = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Email Anda"
+                  placeholder="Email"
                   value={formData.email}
                   onChange={handleChange}
                   disabled={isSubmitting}
@@ -197,7 +197,7 @@ const ContactPage = () => {
                 <MessageSquare className="absolute left-4 top-4 w-5 h-5 text-gray-400 group-focus-within:text-[#6366f1] transition-colors" />
                 <textarea
                   name="message"
-                  placeholder="Pesan Anda"
+                  placeholder="Message"
                   value={formData.message}
                   onChange={handleChange}
                   disabled={isSubmitting}
