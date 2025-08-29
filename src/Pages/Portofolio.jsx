@@ -112,10 +112,10 @@ const techStacks = [
   { icon: "vite.svg", language: "Vite" },
   { icon: "nodejs.svg", language: "Node JS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
-  { icon: "firebase.svg", language: "Firebase" },
-  { icon: "MUI.svg", language: "Material UI" },
   { icon: "vercel.svg", language: "Vercel" },
-  { icon: "SweetAlert.svg", language: "SweetAlert2" },
+  { icon: "C.png", language: "C" },
+  { icon: "Cpp.svg", language: "C++" },
+  { icon: "Python.png", language: "Python" },
 ];
 
 export default function FullWidthTabs() {
