@@ -113,9 +113,17 @@ const techStacks = [
   { icon: "nodejs.svg", language: "Node JS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "vercel.svg", language: "Vercel" },
+  { icon: "mongodb.svg", language: "Mongodb" },
+  { icon: "sql.svg", language: "Mongodb" },
+  { icon: "GitHub.svg", language: "GitHub" },
   { icon: "C.png", language: "C" },
   { icon: "Cpp.svg", language: "C++" },
   { icon: "Python.png", language: "Python" },
+  { icon: "numpy.svg", language: "Numpy" },
+  { icon: "Matplotlib.png", language: "Matplotlib" },
+  { icon: "seaborn.svg", language: "Seaborn" },
+  { icon: "Redux.svg", language: "Redux" },
+  { icon: "Linux.svg", language: "Linux" },
 ];
 
 export default function FullWidthTabs() {
